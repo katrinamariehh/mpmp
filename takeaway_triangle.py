@@ -19,3 +19,12 @@ def triangle_loop(num1, num2, num3):
     triangle_loop(next_1, next_2, next_3)
 # difference needs to add to 14 in the loop but *not* when starting
 # x, y, and z where the arragnement adds up to 14 and is stable
+
+# additional code I ran interactively to find the (0, 7, 7) stable loop adding
+# to 14
+# for i in range(14):
+#      for j in range(14):
+#              results_set.clear()
+#              k = 14 - i - j
+#              print(i, j, k)
+#              triangle_loop(i, j, k)
